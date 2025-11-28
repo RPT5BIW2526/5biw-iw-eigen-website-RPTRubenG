@@ -4,7 +4,7 @@
   --blau: #004D98;
   --grana: #A50044;
   --gold: #EDBB00;
-  --bg: #F5F5F5;
+  --bg: #ffffff;
   --white: #FFFFFF;
   --text: #222;
   --font-sans: 'Montserrat', sans-serif;
@@ -87,8 +87,10 @@ h2 {
   border-bottom: 1px solid #ccc;
 }
 
+
+
 .hero {
-  background-image: url('images/barca-bg.jpg');
+  background-image: url('images/barcelona.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,4 +111,37 @@ footer small {
   display: block;
   font-size: 0.85rem;
   opacity: 0.8;
+}
+
+.match-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.match-top {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.match-events {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.events-list {
+  width: 40%;
+}
+
+.event {
+  background: #f2f2f2;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
 }
